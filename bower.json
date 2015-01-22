@@ -1,0 +1,21 @@
+{
+  "name": "brunchskeleton-reactflux",
+  "version": "1.0.0",
+  "homepage": "https://ngc.com",
+  "authors": [
+    "Felix A. Mercado <felix.a.mercado@gmail.com>"
+  ],
+  "description": "A brunch skeleton for a react and flux project.",
+  "main": "public/js/app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15"
+  }
+}
