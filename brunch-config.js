@@ -20,9 +20,11 @@ exports.config = {
             },
             "order": {
                 "before": [
-                    'bower_components/requirejs/requirejs.js'
+                    'bower_components/requirejs/require.js',
+                    'app/main.js'
                 ],
-                "after": []
+                "after": [
+                ]
             }
         }
     },

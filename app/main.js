@@ -1,12 +1,17 @@
-;define(["components/utils"], function(Utils) {
-  var mainModule;
-  return mainModule = {
-    init: function() {
-      console.log("Hola Mundo");
-      Utils.sayHello("Brunch");
-      return mainModule;
-    }
-  };
-});
 
+//;require.config({
+//    paths: {
+//        "react": "bower_components/react/react-with-addons"
+//    },
+//    shim: {
+//        react: {
+//            "exports": "React"
+//        }
+//    },
+//    waitSeconds: 10
+//});
+
+;require(['components/appinit'], function (appInit) {
+                appInit.init();
+            });
 
