@@ -1,7 +1,7 @@
-brunchskeleton-fluxreact
+A Brunch React RequireJS Test Skeleton
 ========================
 
-A brunch skeleton with flux and react and an extensive test suite.
+A brunch skeleton that includes react, requirejs, and preprocesses jsx files.
 
 
 ## Getting started
